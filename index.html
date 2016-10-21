@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS codeTest</title>
+    <h1><u><center>Code Test</center></u></h1>
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+
+<body onLoad="animate_string('target')">
+    <center><pre id="target">Origin Code Academy Rocks!</pre></center>
+    <div class="panel-body text-center">
+        <u> <h3>JavaScript</h3></u>
+        <p id="day"></p>
+        <p id="time"></p>
+    </div>
+    <div class="panel-body text-center">
+        <u> <h3>jQuery/HTML</h3></u>
+        <h5>Beach Towel</h5>
+        <h5>Suntan Lotion</h5>
+        <h5>Mask, Fins and Snorkel</h5>
+        <h5>Boogie Board</h5>
+    </div>
+    <div class="text-center">
+        <p id="btn"><u><strong>Click Me</strong></u></p>
+    </div>
+    <div class="color text-center" style="background-color:lightgrey">
+        <p>Click the button to change the background color of this paragraph.</p>
+        <button class="btn btn-info">Change Color</button>
+    </div>
+    <br>
+    <div>
+        <u><h3><center>Questionnaire</center></h3></u>
+        <table class="table table-bordered">
+            <tr>
+                <th>How do you define an AngularJS application?</th>
+                <td>An application built using the AngularJS framework, Angular is basically a library written in JavaScript.</td>
+            </tr>
+            <tr>
+                <th>What is a controller?</th>
+                <td>A controller controls the data of Angular applications, we create contollers in JS files. A controller may have two methods: Functions, and Variables.</td>
+            </tr>
+            <tr>
+                <th>What does ng-model do?</th>
+                <td>ng-model Binds input from the HTML to variables created in Javascript.</td>
+            </tr>
+            <tr>
+                <th>What is interpolation markup</th>
+                <td>Interpolation markup is used by Angular for data-binding to text nodes and attribute values.</td>
+            </tr>
+            <tr>
+                <th>What is $scope?</th>
+                <td>$scope Is the link between your view and controller. When you write {{name}}, Angular searches for name property in the scope.
+                </td>
+            </tr>
+            <tr>
+                <th>What is dependency injection?</th>
+                <td>You can use dependency injection when defining components such as Services and Directives, you can inject specific components with dependencies.</td>
+            </tr>
+            <tr>
+                <th>What is two-way binding?</th>
+                <td>Two-way binding is when a model variable is bound to a HTML element that can change and display the value of the variable.</td>
+            </tr>
+            <tr>
+                <th>What is "controller as" syntax?</th>
+                <td>Using controller as makes it clear which controller you are working with in the template when multiple controllers apply to an element.</td>
+            </tr>
+            <tr>
+                <th>What is MV* architecture?</th>
+                <td>Model-View architecture is when the model responds to the request from view. The model manages application data, the view is a presentation of data.</td>
+            </tr>
+            <tr>
+                <th>What is the difference between a service and a factory?</th>
+                <td>A factory gives us the function's return value, you can create an object, add properties to it, then return that same object. Services are used to communicate between controllers to share data you add properties to a service object by using the word "this".</td>
+            </tr>
+        </table>
+    </div>
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <!-- inject:js -->
+    <script src="index.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>
